@@ -14,6 +14,6 @@ class RecetaController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('recetas.index')
+        return view('recetas.index');
     }
 }
